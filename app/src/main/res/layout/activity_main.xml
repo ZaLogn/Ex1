@@ -35,4 +35,27 @@
         android:gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/editTextInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập chuỗi ở đây"
+        android:inputType="text"/>
+    <Button
+        android:id="@+id/btnReverse"
+        android:text="Đảo ngược và In Hoa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+    <!-- TextView để hiển thị chuỗi sau khi thay đổi -->
+    <TextView
+        android:id="@+id/resultText"
+        android:text=""
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </LinearLayout>
